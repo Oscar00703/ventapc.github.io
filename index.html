@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="./Diseño web proyecto/assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap-->
 	<link rel="stylesheet" href="./Diseño web proyecto/assets/css/estilos.css">
+    <link rel="stylesheet" href="./Diseño web proyecto/assets/css/btn-whatsapp.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="https://facebook.com"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://facebook.com" target="_blank"><i class="ti-facebook" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="https://twitter.com/?lang=es" target="_blank"><i class="ti-twitter" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/" target="_blank"><i class="ti-instagram" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="https://github.com/" target="_blank"><i class="ti-github" aria-hidden="true"></i></a></li>
@@ -54,11 +55,12 @@
         </div>
     </nav>
 
-    <!--Creando el chat en la pagina-->
-    <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '9120bacd-3d6a-4e55-981b-463fc6da885e', f: true }); done = true; } }; })();</script>
-    <!--Miembros del grupo-->
+   
     <div class="container-fluid">
         <div id="about" class="row about-section">
+             <!--Creando el chat en la pagina-->
+    <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '9120bacd-3d6a-4e55-981b-463fc6da885e', f: true }); done = true; } }; })();</script>
+    <!--Miembros del grupo-->
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">¿Quiénes Somos?</h3>
                 <span class="line mb-5"></span>
@@ -126,7 +128,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card">
                         <img src="./Diseño web proyecto/assets/imgs/placa.jpg" width="350px" height="215px" alt="">
-                       <div class="card-header">
+                        <div class="card-header">
                             <div class="mt-2">
                                 <h4>Placas Madre</h4>
                                 <span class="line"></span>  
@@ -139,7 +141,7 @@
                                 placa madre o placa principal, es una tarjeta de circuito impreso a 
                                 la que se conectan los componentes que constituyen la computadora.</P>
                             <hr>
-                            <button type="submit" class="form-control btn btn-primary" >Ver más</button>
+                            <a href="./Diseño web proyecto/componentes/placa.html" class="form-control btn btn-primary">Ver más</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +161,7 @@
                                  teléfonos inteligentes, y otros dispositivos programables. Su función es interpretar las instrucciones de un programa
                                   informático mediante la realización de las operaciones básicas aritméticas, lógicas, y externas</P>
                             <hr>
-                            <button type="submit" class="form-control btn btn-primary" >Ver más</button>
+                            <a href="./Diseño web proyecto/componentes/procesador.html" class="form-control btn btn-primary">Ver más</a>
                         </div>
                         
                     </div>
@@ -181,7 +183,7 @@
                                  de la tarjeta madre o motherboard del computador que se encarga de procesar los datos provenientes del procesador
                                   y transformarlos en información comprensible y representable en el dispositivo de salida</P>
                             <hr>
-                            <button type="submit" class="form-control btn btn-primary" >Ver más</button>
+                            <a href="./Diseño web proyecto/componentes/gpu.html" class="form-control btn btn-primary">Ver más</a>
                         </div>
                         
                     </div>
@@ -201,7 +203,7 @@
                             <P>En Stock</P>
                             <P class="subtitle">Es la estructura metálica o plástica, cuya función consiste en albergar y proteger la mayoría de los componentes de una computadora</P>
                             <hr>
-                            <button type="submit" class="form-control btn btn-primary" >Ver más</button>
+                            <a href="./Diseño web proyecto/componentes/cases.html" class="form-control btn btn-primary">Ver más</a>
                         </div>
                         
                     </div>
@@ -221,7 +223,7 @@
                             <P>En Stock</P>
                             <P class="subtitle">La memoria de acceso aleatorio (RAM) es la memoria de la computadora que almacena la información que un programa necesita mientras se ejecuta.</P>
                             <hr>
-                            <button type="submit" class="form-control btn btn-primary" >Ver más</button>
+                            <a href="./Diseño web proyecto/componentes/ram.html" class="form-control btn btn-primary">Ver más</a>
                         </div>
                         
                     </div>
@@ -230,7 +232,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card">
                         <img src="./Diseño web proyecto/assets/imgs/ssd.jpg" width="350px" height="215px" alt="">
-                       <div class="card-header">
+                        <div class="card-header">
                             <div class="mt-2">
                                 <h4>SSD's</h4>
                                 <span class="line"></span>  
@@ -241,7 +243,7 @@
                             <P>En Stock</P>
                             <P class="subtitle">SSD significa unidad de estado sólido, o “Solid State Drive” en Inglés. HDD, en comparación, significa unidad de disco rígido: “Hard Disk Drive”.</P>
                             <hr>
-                            <button type="submit" class="form-control btn btn-primary" >Ver más</button>
+                            <a href="./Diseño web proyecto/componentes/ssd.html" class="form-control btn btn-primary">Ver más</a>
                         </div>
                         
                     </div>
@@ -250,7 +252,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card">
                         <img src="./Diseño web proyecto/assets/imgs/refrigeracion liquida.jpg" width="350px" height="215px" alt="">
-                       <div class="card-header">
+                        <div class="card-header">
                             <div class="mt-2">
                                 <h4>Refrigeracion</h4>
                                 <span class="line"></span>  
@@ -263,7 +265,7 @@
                                  producido por los componentes del ordenador, para mantener los componentes dentro de los límites
                                   de temperatura de funcionamiento permitidos.</P>
                             <hr>
-                            <button type="submit" class="form-control btn btn-primary" >Ver más</button>
+                            <a href="./Diseño web proyecto/componentes/refrigeracion.html" class="form-control btn btn-primary">Ver más</a>
                         </div>
                         
                     </div>
@@ -272,7 +274,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card">
                         <img src="./Diseño web proyecto/assets/imgs/accesorio.jpg" width="350px" height="215px" alt="">
-                       <div class="card-header">
+                        <div class="card-header">
                             <div class="mt-2">
                                 <h4>Accesorios</h4>
                                 <span class="line"></span>  
@@ -285,7 +287,7 @@
                                 la computadora de tus sueños.
                             </P>
                             <hr>
-                            <button type="submit" class="form-control btn btn-primary" >Ver más</button>
+                            <a href="./Diseño web proyecto/componentes/accesorios.html" class="form-control btn btn-primary">Ver más</a>
                         </div>
                         
                     </div>
@@ -294,7 +296,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card">
                         <img src="./Diseño web proyecto/assets/imgs/monitor.jpeg" width="350px" height="215px" alt="">
-                       <div class="card-header">
+                        <div class="card-header">
                             <div class="mt-2">
                                 <h4>Monitores</h4>
                                 <span class="line"></span>  
@@ -305,7 +307,7 @@
                             <P>En stock</P>
                             <P class="subtitle">El monitor del computador, también conocido como pantalla, muestra la información de tu equipo como imágenes y textos</P>
                             <hr>
-                            <button type="submit" class="form-control btn btn-primary" >Ver más</button>
+                            <a href="./Diseño web proyecto/componentes/monitores.html" class="form-control btn btn-primary">Ver más</a>
                         </div>
                         
                     </div>
@@ -317,12 +319,12 @@
     <div class="container">
         <h2 class="mb-5"><span class="text-danger">Estamos Ubicados</span> Por Acá</h2>
         <img class="flecha" src="./Diseño web proyecto/assets/imgs/flecha.png" alt="">
-        <div class="ubicacion">
+      
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15505.687783634685!2d-89.23423396146461!3d13.692875611750999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63317d0f552d0b%3A0xa9f52b0ccaa8a9d1!2sXIMI%20%E2%80%A2%20Metrocentro%20San%20Salvador!5e0!3m2!1ses-419!2ssv!4v1683247570230!5m2!1ses-419!2ssv" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
    
-
+    
     <div class="section contact" id="contact">
         <div id="map" class="map"></div>
         <div class="container">
@@ -330,6 +332,7 @@
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Enviar Mensaje</h4>
+                       
                         <form action="">
                             <div class="form-group">
                                 <input  class="form-control" type="text" placeholder="Nombre*" required>
@@ -354,7 +357,8 @@
                                 <i class="ti-mobile icon-md"></i>
                             </div>
                             <div class="col-10 ">
-                                <h6 class="d-inline">Telefono : <br> <span class="text-muted">+ (503) 7777-7777</span></h6>
+                                <h6 class="d-inline">Telefono : <br> <span class="text-muted">Escribenos a nuestro WhatsApp</span></h6>
+                                <h6><a href="https:/wa.me/50376395244" class="social-link text-dark"><img src="./Diseño web proyecto/assets/icons/icon-whatsapp.svg" alt=""></a></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
